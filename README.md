@@ -62,11 +62,11 @@ The main goals of the project:
 
 This repository can be installed as unity module directly from git url. In this way new line should be added to `Packages/manifest.json`:
 
-`"com.goodcat.un-inventory": "https://github.com/GoodCatGames/UnInventory.git"`
+`"com.goodcat.un-inventory": "https://github.com/Laserbean/UnInventory.git"`
 
 By default last released version will be used. If you need trunk / developing version then develop name of branch should be added after hash:
 
-`"com.goodcat.un-inventory": "https://github.com/GoodCatGames/UnInventory.git#develop"`
+`"com.goodcat.un-inventory": "https://github.com/Laserbean/UnInventory.git#develop"`
 
 *Note: UnInventory comes with some samples.
 You can install the samples via the Package Manager. Select the sample you want and click "Import in project". The samples are imported into your Assets folder at /Assets/Samples/UnInventory/[version#]/*
@@ -256,7 +256,7 @@ These coordinates are unique within each Inventory.
   
        `public class SlotViewHotBarComponent : SlotViewComponent`
   - Select prefab in Inventory Creator when creating Inventory.
-
+- IDK about this. Still going through everything. But I added a 'SlotNewInputComponent' script that works with the new input system
 - You can add your `InputComponent` (Optional) to implement your own way of interacting with inventory. Use the `Hand` class to do this in its code.
 
   ```csharp
@@ -397,7 +397,7 @@ Allows you to set a reaction in case of denial of action using `Hand` only becau
 
 ### Samples
 
-- [Hero](https://github.com/GoodCatGames/UnInventory/tree/master/Samples~/Sample.Hero)
-- [Trade](https://github.com/GoodCatGames/UnInventory/tree/master/Samples~/Sample.Trade)
+- [Hero](https://github.com/Laserbean/UnInventory/tree/master/Samples~/Sample.Hero)
+- [Trade](https://github.com/Laserbean/UnInventory/tree/master/Samples~/Sample.Trade)
 
 #### Hope, you have liked the UnInventory. Look forward for your comments/suggestions.
