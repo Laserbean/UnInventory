@@ -118,20 +118,20 @@ namespace UnInventory.Samples.Sample_Hero
         [UsedImplicitly]
         public void Update()
         {
-            if (Input.GetKey(KeyCode.Escape))
-            {
-                Application.Quit();
-            }
+            // if (Input.GetKey(KeyCode.Escape))
+            // {
+            //     Application.Quit();
+            // }
 
-            if (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1))
-            {
-                UseHotBar(1);
-            }
+            // if (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1))
+            // {
+            //     UseHotBar(1);
+            // }
 
-            if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2))
-            {
-                UseHotBar(2);
-            }
+            // if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2))
+            // {
+            //     UseHotBar(2);
+            // }
         }
 
         /// HotBar
