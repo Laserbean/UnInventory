@@ -397,7 +397,7 @@ Allows you to set a reaction in case of denial of action using `Hand` only becau
 
 ### Samples
 
-- [Hero](https://github.com/Laserbean/UnInventory/tree/master/Samples~/Sample.Hero)
-- [Trade](https://github.com/Laserbean/UnInventory/tree/master/Samples~/Sample.Trade)
+- [Hero](https://github.com/Laserbean/UnInventory/tree/master/Samples/Sample.Hero)
+- [Trade](https://github.com/Laserbean/UnInventory/tree/master/Samples/Sample.Trade)
 
 #### Hope, you have liked the UnInventory. Look forward for your comments/suggestions.
