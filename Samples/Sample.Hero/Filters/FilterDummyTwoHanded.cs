@@ -12,10 +12,7 @@ using UnInventory.Samples.Sample_Hero.Data;
 
 namespace UnInventory.Samples.Sample_Hero.Filters
 {
-    public class FilterDummyTwoHanded :
-        IFilterMoveInEmptySlots,
-        IFilterStack,
-        IFilterSwap
+    public class FilterDummyTwoHanded : IFilterMoveInEmptySlots, IFilterStack, IFilterSwap
     {
         private IDatabaseReadOnly DatabaseReadOnly => InventoryManager.ContainerDi.DatabaseReadOnly;
         [NotNull] private readonly IDataInventoryContainer _dummy;
